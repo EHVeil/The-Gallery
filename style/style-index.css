@@ -1,0 +1,73 @@
+.index-body{
+  background-image: url(../images/gold-back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: #423201;
+}
+
+.index-body:after{
+  content: "";
+  position: fixed;
+  background-image: url("../images/gold-back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.gallery-hero{
+  background-image: url(../images/steve-johnson-11.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.hero-container{
+  background: #ffffff90;
+
+}
+
+.artist{
+  height: 450px;
+  width: 300px;
+}
+
+.about{
+  background-image: url(../images/steve-johnson-11.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top:100px;
+  padding-bottom:25px;
+}
+
+.about-text{
+  background-color: #ffffff90;
+  margin-top: 180px;
+}
+
+.quotetron{
+  background-color: #ffffff90;
+}
+
+.orange{
+  background-color: #3A165B;
+}
+
+.gold-text{
+  color: #ab8206;
+}
+
+.blue-text{
+  color: #00e7ff;
+}

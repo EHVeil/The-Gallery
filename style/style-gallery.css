@@ -1,0 +1,22 @@
+.paint{
+  width: 16rem;
+  height: 19rem;
+}
+
+.orange{
+  background-color: #3A165B;
+}
+
+.blue-text{
+  color: #00e7ff;
+}
+
+.art-card{
+  width: 16rem;
+}
+
+.art-container{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
