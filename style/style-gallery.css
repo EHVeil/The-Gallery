@@ -1,8 +1,13 @@
 .paint{
-  width: 16rem;
-  height: 19rem;
+  height: 15rem;
 }
 
+body{
+  background-image: url(../images/steve-johnson-5.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
 .orange{
   background-color: #3A165B;
 }
@@ -11,12 +16,26 @@
   color: #00e7ff;
 }
 
-.art-card{
+/*.art-card{
   width: 16rem;
+}*/
+
+.art-container{
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 .art-container{
-  padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  background-color: #ab8206;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  border-style: solid
+}
+
+.gold-text{
+  color: #ab8206;
 }
