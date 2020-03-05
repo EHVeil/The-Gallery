@@ -1,7 +1,40 @@
 .form-cont{
-  padding-top: 100px;
+  padding-top: 200px;
   position: center
 }
+
+.form-conta{
+    padding: 50px;
+    border-style: solid;
+    border-color:  #3A165B;
+    background-image: url(../images/steve-johnson-10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.comission-body{
+  background-image: url(../images/gold-back.jpg);
+  background-position: center;
+  background
+}
+
+.comission-body:after{
+  content: "";
+  position: fixed;
+  background: #423201;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
 
 .orange{
   background-color: #3A165B;
